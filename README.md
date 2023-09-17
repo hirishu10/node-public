@@ -1,0 +1,5 @@
+> Create ENV File
+
+1. PORT
+2. NODE_ENV
+3. MONGO_URL
