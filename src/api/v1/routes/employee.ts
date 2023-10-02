@@ -9,7 +9,7 @@ import {
 
 const employee = (router: express.Router) => {
   /**
-   @api {get} /employee List Of Employees
+   @api {get} /api/v1/employee List Of Employees
    @apiVersion 0.0.0
    @apiName List of Employees
    @apiGroup Employee
@@ -32,7 +32,7 @@ const employee = (router: express.Router) => {
   router.get("/employee", AllEmployee);
 
   /**
-   * @api {post} /employee/find Find Employee
+   * @api {post} /api/v1/employee/find Find Employee
    * @apiVersion 0.0.0
    * @apiName Find Employee
    * @apiGroup Employee
@@ -56,7 +56,7 @@ const employee = (router: express.Router) => {
   router.post("/employee/find", GetEmployee);
 
   /**
-   * @api {post} /employee/add Add Employee
+   * @api {post} /api/v1/employee/add Add Employee
    * @apiVersion 0.0.0
    * @apiName Add Employee
    * @apiGroup Employee

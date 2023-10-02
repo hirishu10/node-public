@@ -2,6 +2,7 @@ import { Employee } from "../models/Employee";
 import { Request, Response, NextFunction } from "express";
 
 // List of employees
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const AllEmployee = async (req: Request, res: Response, next: NextFunction) => {
   try {
     const response = await Employee.find();

@@ -23,13 +23,13 @@ define({ "api": [
     "url": "",
     "version": "0.0.0",
     "filename": "./src/dist/docs/main.js",
-    "group": "/Users/rishuchowdhary/Downloads/developing/node/backend-api/src/dist/docs/main.js",
-    "groupTitle": "/Users/rishuchowdhary/Downloads/developing/node/backend-api/src/dist/docs/main.js",
+    "group": "/Users/rishuchowdhary/Downloads/developing/temo_delete/node-public/src/dist/docs/main.js",
+    "groupTitle": "/Users/rishuchowdhary/Downloads/developing/temo_delete/node-public/src/dist/docs/main.js",
     "name": ""
   },
   {
     "type": "post",
-    "url": "/employee/add",
+    "url": "/api/v1/employee/add",
     "title": "Add Employee",
     "version": "0.0.0",
     "name": "Add_Employee",
@@ -87,7 +87,7 @@ define({ "api": [
   },
   {
     "type": "post",
-    "url": "/employee/find",
+    "url": "/api/v1/employee/find",
     "title": "Find Employee",
     "version": "0.0.0",
     "name": "Find_Employee",
@@ -119,7 +119,7 @@ define({ "api": [
   },
   {
     "type": "get",
-    "url": "/employee",
+    "url": "/api/v1/employee",
     "title": "List Of Employees",
     "version": "0.0.0",
     "name": "List_of_Employees",
